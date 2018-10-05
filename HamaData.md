@@ -1,0 +1,1463 @@
+## Hama Data Log
+### Model DIR3100MS
+
+Requests send by Hama Radio to API, Date 4. October 2018
+
+
+```xml
+
+http://hama.wifiradiofrontier.com === 185.71.184.114
+
+185.71.184.114	HTTP	GET	/setupapp/hama/asp/BrowseXML/loginXML.asp?token=0
+	Set-Cookie: ASPSESSIONIDQSDDSRAA=ANNIECOCMDPGALNHGBNNMJIH; path=/\r\n
+    <EncryptedToken>3a3f5ac48a1dab4e</EncryptedToken>
+    
+http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/loginXML.asp?gofile=&mac=***REMOVED***&dlang=ger&fver=8&ven=hama7
+    Set-Cookie: ASPSESSIONIDQSDDSRAA=ENNIECOCFCEGGKHCEONLELIH; path=/\r\n
+    <?xml
+        version="1.0"
+        encoding="UTF-8"
+        standalone="yes"
+        ?>
+    <ListOfItems>
+        <ItemCount>
+            -1
+            </ItemCount>
+        <Item>
+            <ItemType>
+                Dir
+                </ItemType>
+            <Title>
+                Meine Favoriten
+                </Title>
+            <UrlDir>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=
+                </UrlDir>
+            <UrlDirBackUp>
+                http://hama2.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=
+                </UrlDirBackUp>
+            </Item>
+        <Item>
+            <ItemType>
+                Dir
+                </ItemType>
+            <Title>
+                Lokal Deutschland
+                </Title>
+            <UrlDir>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/navXML.asp?gofile=LocationLevelFour-Europe-Germany&amp;bkLvl=LocationLevelFour-Europe-GermanyOObkLvlTypeOOl
+                </UrlDir>
+            <UrlDirBackUp>
+                http://hama2.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/navXML.asp?gofile=LocationLevelFour-Europe-Germany&amp;bkLvl=LocationLevelFour-Europe-GermanyOObkLvlTypeOOl
+                </UrlDirBackUp>
+            </Item>
+        <Item>
+            <ItemType>
+                Dir
+                </ItemType>
+            <Title>
+                Sender
+                </Title>
+            <UrlDir>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/navXML.asp?gofile=Radio
+                </UrlDir>
+            <UrlDirBackUp>
+                http://hama2.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/navXML.asp?gofile=Radio
+                </UrlDirBackUp>
+            </Item>
+        <Item>
+            <ItemType>
+                Dir
+                </ItemType>
+            <Title>
+                Podcasts
+                </Title>
+            <UrlDir>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/navXML.asp?gofile=ShowPod
+                </UrlDir>
+            <UrlDirBackUp>
+                http://hama2.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/navXML.asp?gofile=ShowPod
+                </UrlDirBackUp>
+            </Item>
+        <Item>
+            <ItemType>
+                Dir
+                </ItemType>
+            <Title>
+                Meine hinzugef\303\274gten Radiostationen
+                </Title>
+            <UrlDir>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AFavXML.asp?empty=
+                </UrlDir>
+            <UrlDirBackUp>
+                http://hama2.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AFavXML.asp?empty=
+                </UrlDirBackUp>
+            </Item>
+        <Item>
+            <ItemType>
+                Dir
+                </ItemType>
+            <Title>
+                Hilfe
+                </Title>
+            <UrlDir>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/help.asp?gofile=
+                </UrlDir>
+            <UrlDirBackUp>
+                http://hama2.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/help.asp?gofile=
+                </UrlDirBackUp>
+            </Item>
+        </ListOfItems>
+        
+http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&startItems=1&endItems=100&mac=***REMOVED***&dlang=ger&fver=8&ven=hama7
+    <?xml
+        version="1.0"
+        encoding="UTF-8"
+        standalone="yes"
+        ?>
+    <ListOfItems>
+        <ItemCount>
+            1
+            </ItemCount>
+        <Item>
+            <ItemType>
+                Previous
+                </ItemType>
+            <UrlPrevious>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/loginXML.asp?gofile=
+                </UrlPrevious>
+            <UrlPreviousBackUp>
+                http://hama2.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/loginXML.asp?gofile=
+                </UrlPreviousBackUp>
+            </Item>
+        <Item>
+            <ItemType>
+                Dir
+                </ItemType>
+            <Title>
+                ***REMOVED***
+                </Title>
+            <UrlDir>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&amp;sFavName=***REMOVED***
+                </UrlDir>
+            <UrlDirBackUp>
+                http://hama2.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&amp;sFavName=***REMOVED***
+                </UrlDirBackUp>
+            </Item>
+        </ListOfItems>
+        
+http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&sFavName=***REMOVED***&startItems=1&endItems=100&mac=***REMOVED***&dlang=ger&fver=8&ven=hama7
+	<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+	<ListOfItems>
+		<ItemCount>3</ItemCount>
+		<Item>
+			<ItemType>Previous</ItemType>
+			<UrlPrevious>http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=gofile=</UrlPrevious>
+			<UrlPreviousBackUp>http://hama2.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=gofile=</UrlPreviousBackUp>
+		</Item>
+		<Item>
+			<ItemType>ShowOnDemand</ItemType>
+			<ShowOnDemandID>P23740</ShowOnDemandID>
+			<ShowOnDemandName>ARD Radio Tatort</ShowOnDemandName>
+			<ShowOnDemandURL>http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/GetShowXML.asp?showid=P23740&amp;ShowStatic=&amp;gofile=favorite&amp;sFavName=***REMOVED***&amp;showname=ARD%2520Radio%2520Tatort</ShowOnDemandURL>
+			<ShowOnDemandURLBackUp>http://hama2.wifiradiofrontier.com/setupapp/hama/asp/browsexml/GetShowXML.asp?showid=P23740&amp;ShowStatic=&amp;gofile=favorite&amp;sFavName=***REMOVED***&amp;showname=ARD%2520Radio%2520Tatort</ShowOnDemandURLBackUp>
+			<BookmarkShow>http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/RemoveFavs.asp?empty=&amp;ID=P23740&amp;sFavName=***REMOVED***</BookmarkShow>
+		</Item>
+		<Item>
+			<ItemType>Station</ItemType>
+			<StationId>73373</StationId>
+			<StationName>NDR Info (SH)</StationName>
+			<Bookmark>http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/RemoveFavs.asp?empty=&amp;ID=73373&amp;ShowID=0&amp;sFavName=***REMOVED***</Bookmark>
+		</Item>
+		<Item>
+			<ItemType>ShowOnDemand</ItemType>
+			<ShowOnDemandID>P28889</ShowOnDemandID>
+			<ShowOnDemandName>NDR Info NDR Info - Das Intensiv-Station-Extrakt</ShowOnDemandName>
+			<ShowOnDemandURL>http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/GetShowXML.asp?showid=P28889&amp;ShowStatic=&amp;gofile=favorite&amp;sFavName=***REMOVED***&amp;showname=NDR%2520Info%2520%2D%2520Das%2520Intensiv%2DStation%2DExtrakt</ShowOnDemandURL>
+			<ShowOnDemandURLBackUp>http://hama2.wifiradiofrontier.com/setupapp/hama/asp/browsexml/GetShowXML.asp?showid=P28889&amp;ShowStatic=&amp;gofile=favorite&amp;sFavName=***REMOVED***&amp;showname=NDR%2520Info%2520%2D%2520Das%2520Intensiv%2DStation%2DExtrakt</ShowOnDemandURLBackUp>
+			<BookmarkShow>http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/RemoveFavs.asp?empty=&amp;ID=P28889&amp;sFavName=***REMOVED***</BookmarkShow>
+		</Item>
+	</ListOfItems>	
+
+http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/GetShowXML.asp?showid=P23740&ShowStatic=&gofile=favorite&sFavName=***REMOVED***&showname=ARD%2520Radio%2520Tatort
+    <?xml
+        version="1.0"
+        encoding="UTF-8"
+        standalone="yes"
+        ?>
+    <ListOfItems>
+        <ItemCount>
+            29
+            </ItemCount>
+        <Item>
+            <ItemType>
+                Previous
+                </ItemType>
+            <UrlPrevious>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&amp;sFavName=***REMOVED***
+                </UrlPrevious>
+            <UrlPreviousBackUp>
+                http://hama2.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&amp;sFavName=***REMOVED***
+                </UrlPreviousBackUp>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X1
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Handicap 55
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/handicap-55-krf.l.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X2
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Ein Gef\303\274hl von Sicherheit
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/ein-gefuehl-von-sicherheit-df3s.l.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X3
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Ronsdorf
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/ronsdorfx4l5.l.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X4
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Wut
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/wut-zr4p.l.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X5
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Auf die Fresse
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiofeature/auf-die-fresse-xa9c.l.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X6
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Zweite Ernte
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/zweite-ernte-xcy.l.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X7
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Lange Schatten
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/lange-schatten.l.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X8
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Im K\303\266nigreich Deutschland
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/koenigreich.l.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X9
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Paradise City
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/paradise-city-2018-jan.l.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X10
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Sondersendung: Paradise City
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/sondersendung-xl-paradise-city-2018.l.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X11
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Die Wei\303\237e Frau
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/weisse-frau-l-2017dez.l.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X12
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Abschaum
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/2011-abschaum.l.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X13
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Ende der Schonzeit
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/schonzeit.l.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X14
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Nein hei\303\237t nein
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/nein-heisst-nein.l.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X15
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Toter Acker
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/toter-acker.19244s.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X16
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Volltreffer
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/volltreffer.19244s.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X17
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Unten am Fluss
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/fluss.19244s.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X18
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Menetekel
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/menetekel.12844s.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X19
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Schenja
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/2015_podcast_schenja.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X20
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Winterliebe
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/2014_podcast_winterliebe.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X21
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Wallfahrt
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/2014_podcast_wallfahrt.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X22
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Wasser bis zum Hals
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/2013_podcast_wasser_bis_zum_hals.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X23
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Der Stalker
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/2012_podcast_der_stalker.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X24
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Unter Verdacht
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/2011_podcast_unter_verdacht.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X25
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Vanitas
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/2011_podcast_vanitas.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X26
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Unter sticht Ober
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/2010_podcast_unter_sticht_ober.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X27
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Dienstschluss
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/2009_podcast_dienstschluss.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X28
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Hexenjagd
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/2009_podcast_radiotatort_hexenjagd.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X29
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                </Logo>
+            <ShowEpisodeName>
+                Irmis Ehre
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/2009_podcast_irmisehre.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        </ListOfItems>
+
+http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/Search.asp?sSearchtype=5&Search=P23740X1&mac=***REMOVED***&dlang=eng&fver=8&ven=hama7
+    <?xml
+        version="1.0"
+        encoding="UTF-8"
+        standalone="yes"
+        ?>
+    <ListOfItems>
+        <ItemCount>
+            1
+            </ItemCount>
+        <Item>
+            <ItemType>
+                Previous
+                </ItemType>
+            <UrlPrevious>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/loginXML.asp?
+                </UrlPrevious>
+            <UrlPreviousBackUp>
+                http://hama2.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/loginXML.asp?
+                </UrlPreviousBackUp>
+            </Item>
+        <Item>
+            <ItemType>
+                ShowEpisode
+                </ItemType>
+            <ShowEpisodeID>
+                P23740X1
+                </ShowEpisodeID>
+            <ShowName>
+                ARD Radio Tatort
+                </ShowName>
+            <Logo>
+                http://pri.wifiradiofrontier.com/setupapp/setup1/odlogo/logo-P23740.png
+                </Logo>
+            <ShowEpisodeName>
+                Handicap 55
+                </ShowEpisodeName>
+            <ShowEpisodeURL>
+                http://mp3-download.ard.de/radio/radiotatort/handicap-55-krf.l.mp3
+                </ShowEpisodeURL>
+            <BookmarkShow>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AddFav.asp?empty=&amp;showid=P23740
+                </BookmarkShow>
+            <ShowDesc>
+                 [truncated]In dem Gemeinschaftsprojekt ARD Radio Tatort sorgen spannende und unterhaltende Originalh\303\266rspiele prominenter Autorinnen und Autoren f\303\274r akustischen Nervenkitzel. Zu h\303\266ren sind die Folgen der H\303\266rfunk
+                </ShowDesc>
+            <ShowFormat>
+                Radio Drama
+                </ShowFormat>
+            <Lang>
+                German
+                </Lang>
+            <Country>
+                Germany
+                </Country>
+            <ShowMime>
+                MP3
+                </ShowMime>
+            </Item>
+        </ListOfItems>
+
+http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AFavXML.asp?empty=&startItems=1&endItems=100&mac=***REMOVED***&dlang=ger&fver=8&ven=hama7
+	eXtensible Markup Language
+    <?xml
+        version="1.0"
+        encoding="UTF-8"
+        standalone="yes"
+        ?>
+    <ListOfItems>
+        <ItemCount>
+            4
+            </ItemCount>
+        <Item>
+            <ItemType>
+                Previous
+                </ItemType>
+            <UrlPrevious>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/loginXML.asp?gofile=
+                </UrlPrevious>
+            <UrlPreviousBackUp>
+                http://hama2.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/loginXML.asp?gofile=
+                </UrlPreviousBackUp>
+            </Item>
+        <Item>
+            <ItemType>
+                Station
+                </ItemType>
+            <StationId>
+                333001
+                </StationId>
+            <StationName>
+                A
+                </StationName>
+            </Item>
+        <Item>
+            <ItemType>
+                Station
+                </ItemType>
+            <StationId>
+                333002
+                </StationId>
+            <StationName>
+                B
+                </StationName>
+            </Item>
+        <Item>
+            <ItemType>
+                Station
+                </ItemType>
+            <StationId>
+                333003
+                </StationId>
+            <StationName>
+                C
+                </StationName>
+            </Item>
+        <Item>
+            <ItemType>
+                Station
+                </ItemType>
+            <StationId>
+                333004
+                </StationId>
+            <StationName>
+                D
+                </StationName>
+            </Item>
+        </ListOfItems>
+
+http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/Search.asp?sSearchtype=3&Search=333002&mac=***REMOVED***&dlang=eng&fver=8&ven=hama7
+    <?xml
+        version="1.0"
+        encoding="UTF-8"
+        standalone="yes"
+        ?>
+    <ListOfItems>
+        <ItemCount>
+            1
+            </ItemCount>
+        <Item>
+            <ItemType>
+                Previous
+                </ItemType>
+            <UrlPrevious>
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/loginXML.asp?gofile=
+                </UrlPrevious>
+            <UrlPreviousBackUp>
+                http://hama2.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/loginXML.asp?gofile=
+                </UrlPreviousBackUp>
+            </Item>
+        <Item>
+            <ItemType>
+                Station
+                </ItemType>
+            <StationId>
+                333002
+                </StationId>
+            <StationName>
+                B
+                </StationName>
+            <StationUrl>
+                http://stream.***REMOVED***/?s=B
+                </StationUrl>
+            <StationDesc>
+                </StationDesc>
+            <Logo>
+                </Logo>
+            <StationFormat>
+                Stream B
+                </StationFormat>
+            <StationLocation>
+                Private
+                </StationLocation>
+            <StationBandWidth>
+                32
+                </StationBandWidth>
+            <StationMime>
+                MP3
+                </StationMime>
+            <Relia>
+                5
+                </Relia>
+            </Item>
+        </ListOfItems>
+
+```
