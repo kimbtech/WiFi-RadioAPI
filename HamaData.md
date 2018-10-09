@@ -1437,7 +1437,7 @@ http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/Search.asp?sSearch
                 B
                 </StationName>
             <StationUrl>
-                http://stream.***REMOVED***/?s=B
+                http://stream.%%mydomain%%/?s=B
                 </StationUrl>
             <StationDesc>
                 </StationDesc>
