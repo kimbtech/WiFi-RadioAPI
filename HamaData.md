@@ -1,5 +1,6 @@
-## Hama Data Log
-### Model DIR3100MS
+# Hama Data Log
+
+> Model DIR3100MS
 
 Requests send by Hama Radio to API, Date 4. October 2018
 
@@ -12,7 +13,7 @@ http://hama.wifiradiofrontier.com === 185.71.184.114
 	Set-Cookie: ASPSESSIONIDQSDDSRAA=ANNIECOCMDPGALNHGBNNMJIH; path=/\r\n
     <EncryptedToken>3a3f5ac48a1dab4e</EncryptedToken>
     
-http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/loginXML.asp?gofile=&mac=***REMOVED***&dlang=ger&fver=8&ven=hama7
+http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/loginXML.asp?gofile=&mac=c0d414e16b8a0789796e088387337fab&dlang=ger&fver=8&ven=hama7
     Set-Cookie: ASPSESSIONIDQSDDSRAA=ENNIECOCFCEGGKHCEONLELIH; path=/\r\n
     <?xml
         version="1.0"
@@ -109,7 +110,7 @@ http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/loginXML.asp?gofil
             </Item>
         </ListOfItems>
         
-http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&startItems=1&endItems=100&mac=***REMOVED***&dlang=ger&fver=8&ven=hama7
+http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&startItems=1&endItems=100&mac=c0d414e16b8a0789796e088387337fab&dlang=ger&fver=8&ven=hama7
     <?xml
         version="1.0"
         encoding="UTF-8"
@@ -135,18 +136,18 @@ http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&
                 Dir
                 </ItemType>
             <Title>
-                ***REMOVED***
+                Name
                 </Title>
             <UrlDir>
-                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&amp;sFavName=***REMOVED***
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&amp;sFavName=%%name%%
                 </UrlDir>
             <UrlDirBackUp>
-                http://hama2.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&amp;sFavName=***REMOVED***
+                http://hama2.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&amp;sFavName=%%name%%
                 </UrlDirBackUp>
             </Item>
         </ListOfItems>
         
-http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&sFavName=***REMOVED***&startItems=1&endItems=100&mac=***REMOVED***&dlang=ger&fver=8&ven=hama7
+http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&sFavName=%%name%%&startItems=1&endItems=100&mac=c0d414e16b8a0789796e088387337fab&dlang=ger&fver=8&ven=hama7
 	<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 	<ListOfItems>
 		<ItemCount>3</ItemCount>
@@ -159,27 +160,27 @@ http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&
 			<ItemType>ShowOnDemand</ItemType>
 			<ShowOnDemandID>P23740</ShowOnDemandID>
 			<ShowOnDemandName>ARD Radio Tatort</ShowOnDemandName>
-			<ShowOnDemandURL>http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/GetShowXML.asp?showid=P23740&amp;ShowStatic=&amp;gofile=favorite&amp;sFavName=***REMOVED***&amp;showname=ARD%2520Radio%2520Tatort</ShowOnDemandURL>
-			<ShowOnDemandURLBackUp>http://hama2.wifiradiofrontier.com/setupapp/hama/asp/browsexml/GetShowXML.asp?showid=P23740&amp;ShowStatic=&amp;gofile=favorite&amp;sFavName=***REMOVED***&amp;showname=ARD%2520Radio%2520Tatort</ShowOnDemandURLBackUp>
-			<BookmarkShow>http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/RemoveFavs.asp?empty=&amp;ID=P23740&amp;sFavName=***REMOVED***</BookmarkShow>
+			<ShowOnDemandURL>http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/GetShowXML.asp?showid=P23740&amp;ShowStatic=&amp;gofile=favorite&amp;sFavName=%%name%%&amp;showname=ARD%2520Radio%2520Tatort</ShowOnDemandURL>
+			<ShowOnDemandURLBackUp>http://hama2.wifiradiofrontier.com/setupapp/hama/asp/browsexml/GetShowXML.asp?showid=P23740&amp;ShowStatic=&amp;gofile=favorite&amp;sFavName=%%name%%&amp;showname=ARD%2520Radio%2520Tatort</ShowOnDemandURLBackUp>
+			<BookmarkShow>http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/RemoveFavs.asp?empty=&amp;ID=P23740&amp;sFavName=%%name%%</BookmarkShow>
 		</Item>
 		<Item>
 			<ItemType>Station</ItemType>
 			<StationId>73373</StationId>
 			<StationName>NDR Info (SH)</StationName>
-			<Bookmark>http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/RemoveFavs.asp?empty=&amp;ID=73373&amp;ShowID=0&amp;sFavName=***REMOVED***</Bookmark>
+			<Bookmark>http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/RemoveFavs.asp?empty=&amp;ID=73373&amp;ShowID=0&amp;sFavName=%%name%%</Bookmark>
 		</Item>
 		<Item>
 			<ItemType>ShowOnDemand</ItemType>
 			<ShowOnDemandID>P28889</ShowOnDemandID>
 			<ShowOnDemandName>NDR Info NDR Info - Das Intensiv-Station-Extrakt</ShowOnDemandName>
-			<ShowOnDemandURL>http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/GetShowXML.asp?showid=P28889&amp;ShowStatic=&amp;gofile=favorite&amp;sFavName=***REMOVED***&amp;showname=NDR%2520Info%2520%2D%2520Das%2520Intensiv%2DStation%2DExtrakt</ShowOnDemandURL>
-			<ShowOnDemandURLBackUp>http://hama2.wifiradiofrontier.com/setupapp/hama/asp/browsexml/GetShowXML.asp?showid=P28889&amp;ShowStatic=&amp;gofile=favorite&amp;sFavName=***REMOVED***&amp;showname=NDR%2520Info%2520%2D%2520Das%2520Intensiv%2DStation%2DExtrakt</ShowOnDemandURLBackUp>
-			<BookmarkShow>http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/RemoveFavs.asp?empty=&amp;ID=P28889&amp;sFavName=***REMOVED***</BookmarkShow>
+			<ShowOnDemandURL>http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/GetShowXML.asp?showid=P28889&amp;ShowStatic=&amp;gofile=favorite&amp;sFavName=%%name%%&amp;showname=NDR%2520Info%2520%2D%2520Das%2520Intensiv%2DStation%2DExtrakt</ShowOnDemandURL>
+			<ShowOnDemandURLBackUp>http://hama2.wifiradiofrontier.com/setupapp/hama/asp/browsexml/GetShowXML.asp?showid=P28889&amp;ShowStatic=&amp;gofile=favorite&amp;sFavName=%%name%%&amp;showname=NDR%2520Info%2520%2D%2520Das%2520Intensiv%2DStation%2DExtrakt</ShowOnDemandURLBackUp>
+			<BookmarkShow>http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/RemoveFavs.asp?empty=&amp;ID=P28889&amp;sFavName=%%name%%</BookmarkShow>
 		</Item>
 	</ListOfItems>	
 
-http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/GetShowXML.asp?showid=P23740&ShowStatic=&gofile=favorite&sFavName=***REMOVED***&showname=ARD%2520Radio%2520Tatort
+http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/GetShowXML.asp?showid=P23740&ShowStatic=&gofile=favorite&sFavName=%%name%%&showname=ARD%2520Radio%2520Tatort
     <?xml
         version="1.0"
         encoding="UTF-8"
@@ -194,10 +195,10 @@ http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/GetShowXML.asp?sho
                 Previous
                 </ItemType>
             <UrlPrevious>
-                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&amp;sFavName=***REMOVED***
+                http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&amp;sFavName=%%name%%
                 </UrlPrevious>
             <UrlPreviousBackUp>
-                http://hama2.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&amp;sFavName=***REMOVED***
+                http://hama2.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&amp;sFavName=%%name%%
                 </UrlPreviousBackUp>
             </Item>
         <Item>
@@ -1275,7 +1276,7 @@ http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/GetShowXML.asp?sho
             </Item>
         </ListOfItems>
 
-http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/Search.asp?sSearchtype=5&Search=P23740X1&mac=***REMOVED***&dlang=eng&fver=8&ven=hama7
+http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/Search.asp?sSearchtype=5&Search=P23740X1&mac=c0d414e16b8a0789796e088387337fab&dlang=eng&fver=8&ven=hama7
     <?xml
         version="1.0"
         encoding="UTF-8"
@@ -1336,7 +1337,7 @@ http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/Search.asp?sSearch
             </Item>
         </ListOfItems>
 
-http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AFavXML.asp?empty=&startItems=1&endItems=100&mac=***REMOVED***&dlang=ger&fver=8&ven=hama7
+http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AFavXML.asp?empty=&startItems=1&endItems=100&mac=c0d414e16b8a0789796e088387337fab&dlang=ger&fver=8&ven=hama7
 	eXtensible Markup Language
     <?xml
         version="1.0"
@@ -1404,7 +1405,7 @@ http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/AFavXML.asp?empty=
             </Item>
         </ListOfItems>
 
-http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/Search.asp?sSearchtype=3&Search=333002&mac=***REMOVED***&dlang=eng&fver=8&ven=hama7
+http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/Search.asp?sSearchtype=3&Search=333002&mac=c0d414e16b8a0789796e088387337fab&dlang=eng&fver=8&ven=hama7
     <?xml
         version="1.0"
         encoding="UTF-8"

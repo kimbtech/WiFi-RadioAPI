@@ -42,7 +42,7 @@ The radio always adds the following parameter at the end of each URL:
 	- `medion2` for some medion radios
 
 ```
-	&mac=***REMOVED***&dlang=ger&fver=8&ven=hama7
+	&mac=c0d414e16b8a0789796e088387337fab&dlang=ger&fver=8&ven=hama7
 ```
 
 Somtimes the two paramter `startItems=1&endItems=100` are added to specifie parts of lists (only while browsing the list of all stations, podcast)
@@ -50,7 +50,7 @@ Somtimes the two paramter `startItems=1&endItems=100` are added to specifie part
 >
 > Browsing a favorite group:
 > ```
-> http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&sFavName=<name-of-favorites-group>&startItems=1&endItems=100&mac=***REMOVED***&dlang=ger&fver=8&ven=hama7
+> http://hama.wifiradiofrontier.com/setupapp/hama/asp/browsexml/FavXML.asp?empty=&sFavName=<name-of-favorites-group>&startItems=1&endItems=100&mac=c0d414e16b8a0789796e088387337fab&dlang=ger&fver=8&ven=hama7
 > ```
 
 ### Login
@@ -247,7 +247,7 @@ Most responses are build like:
 - non ASCII-chars are escaped
 	- octal unicode
 	- e.g.
-		- ä = `\303\244`; as parts `"` and `u`
+		- ä = `\303\244`; as parts `"` and `a`
 		- ü = `\303\274`
 		- ö = `\303\266`
 		- ß = `\303\237`
