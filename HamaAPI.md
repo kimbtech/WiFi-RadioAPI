@@ -244,6 +244,7 @@ Most responses are build like:
 ## Other
 - Radio seems to use IPv4 only, also if IPv6 available
 - Radio uses no SSL/TLS encryption, seems not capable
+- There is a timeserver at time.wifiradiofrontier.com (NTP)
 - non ASCII-chars are escaped
 	- octal unicode
 	- e.g.
