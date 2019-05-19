@@ -17,6 +17,7 @@
 	- ASP.NET
 - Normal HTTP 1.1 Requests on Port 80
 - Server sets as ASP.NET Session Cookie, but Radio never responds with it, always a new one
+- Content-Lenght Header
 
 ### Request
 ```
@@ -61,6 +62,7 @@ http://hama.wifiradiofrontier.com/setupapp/hama/asp/BrowseXML/loginXML.asp?token
 The answer is always the string `<EncryptedToken>3a3f5ac48a1dab4e</EncryptedToken>`.
 
 - This seems to be the only case, when the radio does not append more parameters.
+- Will be always the first sent request.
 
 ### Startpage
 The list show after a successfull connection is just an XML-response. Its the same file as the login `loginXML.asp?gofile=&...`.
@@ -87,7 +89,11 @@ Search-Types:
 
 ### Responses
 - All responses are some type of XML.
+	- No HTML-Entities supported
+	- Use `&` and not `&amp;`
+	- Only `<>` are reserved.
 - Error messages are sometimes just plain strings.
+- The Content-Length header is very important, without the radio does not parse the responses.
 
 Most responses are build like:
 ```xml
@@ -218,6 +224,22 @@ Most responses are build like:
 
 * optional fields
 
+#### `Search`
+- Opens a search box (text input)
+- Search Type `sSearchtype=1`
+	- `<SearchURL>`
+		- The search URL (where the input get send to?; `sSearchtype=1`) 
+	- `<SearchURLBackUp>`
+	- `<SearchCaption>`
+		- The Name for the item
+	- `<SearchTextbox>`
+		- The default/ placeholder value
+	- `<SearchButtonGo>`
+		- The go button label
+	- `<SearchButtonCancel>`
+		- The cancel button label
+- Until now I don't know how the input is send back
+
 ## Known files and parameters
 - /loginXML.asp?token=0
 - /loginXML.asp?gofile=
@@ -244,8 +266,10 @@ Most responses are build like:
 ## Other
 - Radio seems to use IPv4 only, also if IPv6 available
 - Radio uses no SSL/TLS encryption, seems not capable
-- There is a timeserver at time.wifiradiofrontier.com (NTP)
-- non ASCII-chars are escaped
+- There is a timeserver at `time.wifiradiofrontier.com` (NTP)
+- Non ASCII-chars are escaped
+	- some of the UTF-8 range seems to be supported also
+	- HTML-entities are not supported
 	- octal unicode
 	- e.g.
 		- ä = `\303\244`; as parts `"` and `a`
