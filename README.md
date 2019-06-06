@@ -1,6 +1,10 @@
 # WiFi-RadioAPI
 API on host wifiradiofrontier.com for Silicone Frontier radios.
 
+>
+> See the PHP implementation at https://github.com/KIMB-technologies/Radio-API
+>
+
 - Hama Radio API  
 	Model DIR3100MS
 	- [API Dokumentation](HamaAPI.md)
