@@ -1,8 +1,9 @@
-# Hama Data Log
+# XML-based API
+These page contains the *Connection Logs* of a `Hama DIR3100MS`. 
+A documentation can be found [here](HamaAPI.md).
 
-> Model DIR3100MS
-
-Requests send by Hama Radio to API, Date 4. October 2018
+## Logs
+Requests sent by Hama Radio to API, Date 4. October 2018
 
 
 ```xml
