@@ -22,7 +22,7 @@ The Majority radio supports HTTPS and requires the API to be served via HTTPS. H
 Beside not verifying certificate chains, also common names are not verified.
 As HTTPS is supported, the radio can stream from HTTPS urls, but will also stream from HTTP.
 
-I do not know if the radio support IPv6, as the DNS records are all IPv4 and my DNS tampering uses only IPv4. As it is not possible to set IPv6 DNS servers in the radio's settings, I assume no IPv6 support.
+I do not know if the radio supports IPv6, as the DNS records are all IPv4 and my DNS tampering uses only IPv4. As it is not possible to set IPv6 DNS servers in the radio's settings, I assume no IPv6 support.
 
 The radio supports MP3 and other well known audio formats streams over HTTP. The radio does **not support** audio streams via **HLS/M3U**. The latter in contrast to older XML-based Radios.
 
